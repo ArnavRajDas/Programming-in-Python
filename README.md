@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Custom Banner Image](Python-01.jpg)
+![Custom Banner Image](Assets/Python-01.jpg)
 
 # <span>Programming in Python</span>
 
@@ -30,66 +30,20 @@
 
 ---
 
-## Table of Contents
 
-- [Welcome](#welcome)
-- [Repository Vision](#repository-vision)
-- [Why This Repository Exists](#why-this-repository-exists)
-- [Why I Started Tracking My Journey](#why-i-started-tracking-my-journey)
-- [Repository Highlights](#repository-highlights)
-- [Quick Snapshot](#quick-snapshot)
-- [What You Will Find Here](#what-you-will-find-here)
-- [Learning Philosophy](#learning-philosophy)
-- [My Workflow](#my-workflow)
-- [Repository Architecture](#repository-architecture)
-- [Folder Structure](#folder-structure)
-- [Folder Naming Convention](#folder-naming-convention)
-- [Learning Roadmap & Beginner to Advanced Timeline](#learning-roadmap--beginner-to-advanced-timeline)
-- [Repository Flowchart](#repository-flowchart)
-- [Learning Workflow Flowchart](#learning-workflow-flowchart)
-- [Python Learning Path](#python-learning-path)
-- [Mini Projects](#mini-projects)
-- [DSA Section](#dsa-section)
-- [Folder READMEs Explanation](#folder-readmes-explanation)
-- [How I Organize Code](#how-i-organize-code)
-- [Documentation Standards](#documentation-standards)
-- [Commit Strategy](#commit-strategy)
-- [Branch Strategy](#branch-strategy)
-- [Learning Journal](#learning-journal)
-- [Progress Tracking](#progress-tracking)
-- [Weekly Goals](#weekly-goals)
-- [Milestones](#milestones)
-- [Repository Timeline](#repository-timeline)
-- [Current Focus](#current-focus)
-- [Future Plans](#future-plans)
-- [For Beginners](#for-beginners)
-- [How to Navigate](#how-to-navigate)
-- [Contribution Guidelines](#contribution-guidelines)
-- [Resources](#resources)
-- [Explore My Other Repositories](#explore-my-other-repositories)
-- [Frequently Asked Questions](#frequently-asked-questions)
-- [Repository Rules](#repository-rules)
-- [Best Practices](#best-practices)
-- [Motivation Section](#motivation-section)
-- [Final Reflection](#final-reflection)
-- [Connect With Me](#connect-with-me)
-- [Author](#author)
-- [License](#license)
-
----
 
 ## Welcome
 
 Welcome to **Programming in Python**. This repository is my public learning workspace: a place where I study Python in a structured way, solve problems, build mini projects, practice Git and GitHub, and document the process honestly over time.
 
-This is not a packaged course and not a polished tutorial series pretending to be finished. It is a living repository that grows with every topic I learn. The value here is the combination of code, notes, folder-level explanations, and visible progress.
+This is not a packaged course and not a polished tutorial series pretending to be finished. It is a living repository that grows with every topic I learn. The value here is the combination of code, notes, folder level explanations, and visible progress.
 
 > [!NOTE]
 > If you are a beginner, you can start here and move forward topic by topic. If you are a recruiter, mentor, or fellow learner, this repo shows consistency, documentation discipline, and long-term growth.
 
 ---
 
-## Repository Vision
+## Vision
 
 My vision is to turn this repository into a complete, beginner-friendly, and professionally organized Python learning archive. Every topic should be easy to find, easy to understand, and easy to revisit later.
 
@@ -127,7 +81,7 @@ It also makes improvement visible. The commits, folders, notes, and projects bec
 
 ## Repository Highlights
 
-- Topic-wise learning folders for clear navigation.
+- Module-based learning folders for clear navigation.
 - Beginner-friendly code examples with comments and context.
 - Folder-level README files for deeper topic explanations.
 - Mini projects that apply concepts in practical ways.
@@ -142,14 +96,14 @@ It also makes improvement visible. The commits, folders, notes, and projects bec
 
 | Area | Details |
 |---|---|
-| Repository type | Personal learning workspace |
+| Repository  | Programming-in-Python |
 | Primary language | Python |
 | Focus | Beginner to advanced progression |
-| Content style | Topic-based, practical, and documented |
+| Content style | Module-based, practical, and documented |
 | Audience | Beginners, self-learners, mentors, recruiters, and future me |
 | Update rhythm | Regular commits and iterative expansion |
 | Learning outputs | Notes, examples, exercises, projects, and DSA practice |
-| Core principle | Learn in public, organize clearly, improve consistently |
+
 
 > [!TIP]
 > The repository is most useful when explored in order, but each folder is also meant to be self-contained.
@@ -160,7 +114,7 @@ It also makes improvement visible. The commits, folders, notes, and projects bec
 
 | Category | What it contains | Why it matters |
 |---|---|---|
-| Topic folders | Focused learning by concept | Makes the repo easy to browse |
+| Learning modules | Focused learning by concept | Makes the repo easy to browse |
 | Examples | Small runnable snippets | Helps turn theory into understanding |
 | Exercises | Practice tasks and drills | Reinforces active learning |
 | Mini projects | Small applied builds | Shows how topics connect in real use |
@@ -172,25 +126,7 @@ It also makes improvement visible. The commits, folders, notes, and projects bec
 
 ---
 
-## Learning Philosophy
 
-My learning philosophy is simple: understand one layer deeply before adding the next layer.
-
-I prefer:
-
-- simple examples before abstract explanations,
-- repetition before speed,
-- clarity before cleverness,
-- structure before scale,
-- documentation before forgetting,
-- progress before perfection.
-
-This repository reflects that philosophy. It is intentionally organized so that the learner can move from syntax to logic, from logic to projects, and from projects to problem solving.
-
-> [!IMPORTANT]
-> The goal is not to rush through Python. The goal is to build durable understanding and useful habits.
-
----
 
 ## My Workflow
 
@@ -214,27 +150,16 @@ This workflow keeps the repository active while making sure the learning stays o
 
 The repository follows a documentation-first learning architecture.
 
-- The root README acts as the homepage.
-- Topic folders contain the actual learning material.
-- Each major folder can include its own README for deeper explanation.
-- Code examples stay close to the concepts they demonstrate.
-- Projects and exercises are separated so that practice remains focused.
-
-The design goal is discoverability. A newcomer should be able to open the repository and immediately understand where to start, where to learn next, and how the content is grouped.
-
-### Repository Architecture Flow
 
 ```mermaid
 flowchart TD
-	A[Root README] --> B[Topic Folders]
-	B --> C[Concept Notes]
-	B --> D[Code Examples]
-	B --> E[Folder README]
-	D --> F[Mini Projects]
-	D --> G[Exercises]
-	F --> H[Portfolio Growth]
-	G --> I[Skill Reinforcement]
-	E --> J[Topic Navigation]
+	A[Root README] --> B[01_Learning]
+	B --> C[02_Mini_Projects]
+	C --> D[03_Showcase_Projects]
+	D --> E[04_DSA]
+	E --> F[05_Practice_Problems]
+	F --> G[06_Resources]
+	G --> H[Assets]
 ```
 
 ---
@@ -248,118 +173,87 @@ flowchart TD
 ```text
 Programming-in-Python/
 ├── README.md
-├── 01_Python_Basics/
-├── 02_Operators/
-├── 03_Control_Flow/
-├── 04_Loops/
-├── 05_Strings/
-├── 06_Collections/
-├── 07_Functions/
-├── 08_Modules_and_Packages/
-├── 09_Exception_Handling/
-├── 10_File_Handling/
-├── 11_Object_Oriented_Programming/
-├── 12_Advanced_Functions/
-├── 13_Built_in_Functions/
-├── 14_Comprehensions/
-├── 15_Collections_Module/
-├── 16_Regular_Expressions/
-├── 17_Date_and_Time/
-├── 18_Math_Libraries/
-├── 19_Functional_Programming/
-├── 20_Python_Memory_Management/
-├── 21_Multithreading/
-├── 22_Multiprocessing/
-├── 23_Asynchronous_Programming/
-├── 24_Networking/
-├── 25_Database_Programming/
-├── 26_Web_Scraping/
-├── 27_GUI_Development/
-├── 28_Testing/
-├── 29_Logging/
-├── 30_Virtual_Environments/
-├── 31_Advanced_Python_Concepts/
-├── 32_Python_Standard_Libraries/
-├── 33_Data_Analysis/
-├── 34_Machine_Learning/
-├── 35_Web_Development/
-├── 36_Automation/
-├── 37_DevOps_with_Python/
-├── 38_Data_Structures/
-├── 39_Algorithms/
-├── 40_Mini_Projects/
-├── 41_DSA_in_Python/
-├── 42_Practice_Problems/
-└── 43_Resources/
+├── 01_Learning/
+├── 02_Mini_Projects/
+├── 03_Showcase_Projects/
+├── 04_DSA/
+├── 05_Practice_Problems/
+├── 06_Resources/
+├── Assets/
+└── LICENSE
 ```
+
+### Main Folder Overview
+
+| Folder | Purpose |
+|---|---|
+| README.md | The entry point for the repository and the main navigation guide. |
+| 01_Learning | The structured learning workspace for concepts, examples, and notes. |
+| 02_Mini_Projects | Beginner-to-intermediate Python projects that apply the core modules. |
+| 03_Showcase_Projects | Polished projects designed to highlight stronger implementation and presentation. |
+| 04_DSA | Python implementations of data structures and algorithms, organized by topic. |
+| 05_Practice_Problems | Centralized practice sets, revision questions, and platform solutions. |
+| 06_Resources | Curated books, notes, cheat sheets, roadmaps, and reference material. |
+| Assets | Visual support files such as banners, screenshots, and diagrams. |
+| LICENSE | The legal terms for using and sharing the repository. |
+
+### 01_Learning Structure
+
+```text
+01_Learning/
+├── 01_Getting_Started/
+├── 02_Python_Fundamentals/
+├── 03_Control_Flow/
+├── 04_Strings/
+├── 05_Functions_and_Modules/
+├── 06_Collections/
+├── 07_Object_Oriented_Programming/
+├── 08_Advanced_Python/
+├── 09_File_Handling/
+├── 10_External_Libraries/
+├── 11_Web_Development/
+└── 12_AI_and_Modern_Python/
+```
+
+| Module | What it covers |
+|---|---|
+| 01_Getting_Started | Setup, tools, execution basics, and the first steps into Python. |
+| 02_Python_Fundamentals | Syntax, variables, data types, operators, and core language building blocks. |
+| 03_Control_Flow | Conditions, loops, and decision-making patterns. |
+| 04_Strings | Text handling, formatting, slicing, searching, and common string operations. |
+| 05_Functions_and_Modules | Reusable logic, scope, imports, modular design, and simple packaging. |
+| 06_Collections | Lists, tuples, sets, dictionaries, and practical collection patterns. |
+| 07_Object_Oriented_Programming | Classes, objects, inheritance, encapsulation, and object-oriented thinking. |
+| 08_Advanced_Python | Deeper language features, decorators, comprehensions, generators, and runtime concepts. |
+| 09_File_Handling | Reading, writing, organizing, and working with persistent data. |
+| 10_External_Libraries | Third-party packages and Python tools used beyond the standard library. |
+| 11_Web_Development | Web-facing Python workflows, frameworks, APIs, and application structure. |
+| 12_AI_and_Modern_Python | Modern Python workflows, automation, data-driven tools, and AI-assisted development. |
 
 ---
 
-## Folder Naming Convention
-
-I use clear folder names so the structure stays readable as the repository grows.
-
-- Use short, descriptive names that communicate the topic.
-- Prefer hyphenated names for multi-word folders.
-- Keep related files inside the same topic folder.
-- Use `README.md` inside folders when the folder needs explanation.
-- Keep examples and exercises close to the topic they belong to.
-
-Consistency matters more than clever naming. A beginner should be able to guess what a folder contains just by reading the name.
 
 
+### Learning Structure Flow
 
-## Learning Roadmap & Beginner to Advanced Timeline
-
-| Phase | What I Learn | Evidence in the repo | Outcome
-|---|---|---|---| 
-| 01 | Python Basics | Intro folders, first examples, notes | Understand syntax, variables, and program structure |
-| 02 | Operators | Expressions, comparisons, and boolean logic |Build expressions, comparisons, and logic |
-| 03 | Control Flow | Branching and decision making | Make decisions with conditions |
-| 04 | Loops | Repetition and iteration patterns |Repeat work with for and while patterns |
-| 05 | Strings | Text processing and formatting | Handle text cleanly and confidently |
-| 06 | Collections | Lists, tuples, sets, and dictionaries |Work with core data collections |
-| 07 | Functions | Reusable logic and scope |Reuse logic through well-structured functions |
-| 08 | Modules and Packages | Cleaner structure and imports |Organize code across files and packages |
-| 09 | Exception Handling | Safer code and error control |Write safer, more resilient programs |
-| 10 | File Handling | Reading and writing files | Read and write persistent data |
-| 11 | Object-Oriented Programming | Classes, objects, and design |Model real problems with classes and objects |
-| 12 | Advanced Functions | Flexible function patterns |Use flexible callable patterns |
-| 13 | Built-in Functions | Built-in capabilities and utilities | Master Python’s built-in tools |
-| 14 | Comprehensions | Compact collection building |Write concise collection transformations |
-| 15 | Collections Module | Specialized data structures |Use specialized collection types effectively |
-| 16 | Regular Expressions | Pattern matching and extraction |Match and extract text patterns |
-| 17 | Date and Time | Time-aware programming |Work with temporal data precisely |
-| 18 | Math Libraries | Numeric operations and helpers | Use numeric and scientific helpers |
-| 19 | Functional Programming | Map, filter, reduce, and composition |Think in functions, composition, and iteration |
-| 20 | Python Memory Management | Runtime behavior and object lifecycle |Understand runtime behavior and resource use |
-| 21 | Multithreading | Concurrent execution concepts |Handle concurrent tasks in Python |
-| 22 | Multiprocessing | Parallel execution across processes |Scale work across processes |
-| 23 | Asynchronous Programming | Event-driven workflow design |Build non-blocking workflows |
-| 24 | Networking | Network communication basics |Communicate over network boundaries |
-| 25 | Database Programming | Persistent structured data |Store and query structured data |
-| 26 | Web Scraping | Extracting data from the web |Collect information from web pages |
-| 27 | GUI Development | Desktop interaction and interfaces |Build interactive desktop interfaces |
-| 28 | Testing | Confidence through verification |Verify behavior with confidence |
-| 29 | Logging | Observability and diagnostics |Capture runtime information clearly |
-| 30 | Virtual Environments | Dependency isolation and setup |Isolate dependencies cleanly |
-| 31 | Advanced Python Concepts | Deeper language capabilities |Explore deeper language capabilities |
-| 32 | Python Standard Libraries | Reusable built-in modules |Use the built-in ecosystem effectively |
-| 33 | Data Analysis | Data inspection and transformation |Analyze and transform data |
-| 34 | Machine Learning | Introductory model workflows |Introduce predictive workflows |
-| 35 | Web Development | App structure and web delivery |Build browser-facing applications |
-| 36 | Automation | Scripted productivity and task reduction |Reduce repetitive work with scripts |
-| 37 | DevOps with Python | Operational support and deployment tasks | Support deployment and operational tasks |
-| 38 | Data Structures | Problem-solving and organization |Strengthen problem-solving foundations |
-| 39 | Algorithms | Efficient solution strategies |Learn systematic solution design |
-| 40 | Mini Projects | Applied learning and portfolio pieces | Combine concepts into small builds |
-| 41 | DSA in Python | Implementation-focused problem solving | Practice algorithmic implementation in Python |
-| 42 | Practice Problems | Repetition and mastery building |Reinforce skills through repetition |
-| 43 | Resources | Revision support and reference material |Keep references organized for long-term learning |
-
-
-> [!NOTE]
-> The timeline is not a race. It is a visible record of depth increasing over time.
+```mermaid
+flowchart TD
+	A[Phase 1: Getting Started] --> B[Phase 2: Python Fundamentals]
+	B --> C[Phase 3: Control Flow]
+	C --> D[Phase 4: Strings]
+	D --> E[Phase 5: Functions and Modules]
+	E --> F[Phase 6: Collections]
+	F --> G[Phase 7: Object-Oriented Programming]
+	G --> H[Phase 8: Advanced Python]
+	H --> I[Phase 9: File Handling]
+	I --> J[Phase 10: External Libraries]
+	J --> K[Phase 11: Web Development]
+	K --> L[Phase 12: AI and Modern Python]
+	L --> M[Mini Projects]
+	M --> N[DSA]
+	N --> O[Practice Problems]
+	O --> P[Professional Python]
+```
 
 ---
 
@@ -367,13 +261,13 @@ Consistency matters more than clever naming. A beginner should be able to guess 
 
 ```mermaid
 flowchart LR
-	A[Learn a Concept] --> B[Write Small Examples]
-	B --> C[Save in Topic Folder]
-	C --> D[Update Folder README]
-	D --> E[Practice Exercises]
-	E --> F[Build a Mini Project]
-	F --> G[Commit to GitHub]
-	G --> H[Review and Improve]
+	A[Root README] --> B[01_Learning]
+	B --> C[02_Mini_Projects]
+	C --> D[03_Showcase_Projects]
+	D --> E[04_DSA]
+	E --> F[05_Practice_Problems]
+	F --> G[06_Resources]
+	G --> H[Assets]
 ```
 
 ---
@@ -382,12 +276,12 @@ flowchart LR
 
 ```mermaid
 flowchart TD
-	A[Read Topic] --> B[Understand the Idea]
-	B --> C[Type and Run Examples]
-	C --> D[Modify the Code]
-	D --> E[Observe Output]
-	E --> F[Write Notes]
-	F --> G[Practice Exercises]
+	A[Open 01_Learning] --> B[Choose One Module]
+	B --> C[Read the Folder README]
+	C --> D[Study Examples]
+	D --> E[Write Notes]
+	E --> F[Practice the Concept]
+	F --> G[Apply It in a Project or Problem]
 	G --> H[Commit Progress]
 ```
 
@@ -395,23 +289,41 @@ flowchart TD
 
 ## Python Learning Path
 
-My Python learning path moves through each major layer in order:
+My Python learning path now follows the repository modules in a simple progression:
 
-**Python Basics → Core Python → Intermediate Python → Advanced Python → Libraries → Projects → DSA → Real-world Development → Professional Python**
+**Getting Started → Python Fundamentals → Control Flow → Strings → Functions and Modules → Collections → Object-Oriented Programming → Advanced Python → File Handling → External Libraries → Web Development → AI and Modern Python → Mini Projects → DSA → Practice Problems → Professional Python**
 
-1. **Python Basics** - syntax, variables, data types, and input/output.
-2. **Core Python** - operators, control flow, loops, strings, collections, and functions.
-3. **Intermediate Python** - modules, packages, exceptions, file handling, and OOP.
-4. **Advanced Python** - advanced functions, built-ins, comprehensions, regex, date and time, math libraries, functional programming, memory management, concurrency, networking, and asynchronous programming.
-5. **Libraries** - standard libraries, data analysis, and machine learning foundations.
-6. **Projects** - mini projects, web development, automation, GUI development, and DevOps-style workflows.
-7. **DSA** - data structures, algorithms, DSA in Python, and practice problems.
-8. **Real-world Development** - databases, scraping, testing, logging, virtual environments, and deployment-minded coding.
-9. **Professional Python** - scalable code organization, cleaner architecture, and maintainable engineering habits.
+1. **Getting Started** - setup, execution, and the first steps into Python.
+2. **Python Fundamentals** - syntax, variables, data types, and operators.
+3. **Control Flow** - conditions, loops, and decision making.
+4. **Strings** - text handling, formatting, and common string patterns.
+5. **Functions and Modules** - reusable logic, scope, imports, and organization.
+6. **Collections** - lists, tuples, sets, and dictionaries.
+7. **Object-Oriented Programming** - classes, objects, and structured design.
+8. **Advanced Python** - deeper language features and more expressive patterns.
+9. **File Handling** - reading, writing, and working with persistent data.
+10. **External Libraries** - using packages and tools beyond the standard library.
+11. **Web Development** - APIs, frameworks, and web-facing Python workflows.
+12. **AI and Modern Python** - modern development habits and AI-assisted workflows.
+13. **Mini Projects** - build small applications that combine multiple concepts.
+14. **DSA** - implement data structures and algorithms in Python.
+15. **Practice Problems** - solve revision sets and platform-based questions.
+16. **Professional Python** - write cleaner, more maintainable, and better-documented code.
 
 ---
 
 ## Mini Projects
+
+`02_Mini_Projects` contains multiple beginner-to-intermediate Python projects.
+
+Each project is usually self-contained and includes:
+
+- Source Code
+- README
+- Screenshots, if applicable
+- Outputs
+- Learning Outcomes
+- Topics Used
 
 Mini projects are where concepts become tangible.
 
@@ -430,7 +342,7 @@ Mini projects help me prove that I understand the topic well enough to use it.
 
 ```mermaid
 flowchart LR
-	A[Choose a Small Problem] --> B[Define Inputs and Outputs]
+	A[Choose a Project in 02_Mini_Projects] --> B[Define Inputs and Outputs]
 	B --> C[Break Into Functions]
 	C --> D[Implement Step by Step]
 	D --> E[Test With Sample Cases]
@@ -442,17 +354,21 @@ flowchart LR
 
 ## DSA Section
 
-DSA practice lives in its own section so problem solving remains focused and measurable.
+`04_DSA` contains Python implementations of data structures and algorithms.
 
-The goal here is not only to solve problems, but to recognize patterns:
+The folder is organized by topic so problem solving remains focused and measurable.
 
-- arrays and strings,
-- recursion,
-- searching and sorting,
-- stacks and queues,
-- hash-based approaches,
-- two-pointer and sliding-window techniques,
-- basic tree and graph introductions as the repo matures.
+The goal here is not only to solve problems, but to recognize patterns across:
+
+- Arrays and strings
+- Linked lists
+- Stacks and queues
+- Trees and graphs
+- Searching and sorting
+- Dynamic programming
+- Greedy techniques
+- Backtracking
+- Recursion and problem decomposition
 
 ### DSA Categories
 
@@ -460,17 +376,21 @@ The goal here is not only to solve problems, but to recognize patterns:
 |---|---|---|
 | Arrays | Sequence processing | Traversal, indexing, subarrays |
 | Strings | Text manipulation | Pattern checks, formatting, frequency |
-| Recursion | Self-referential solutions | Base case thinking, decomposition |
+| Linked Lists | Node-based structures | Pointer movement, insertion, deletion |
+| Stacks and Queues | Order-sensitive processing | Balanced expressions, scheduling |
+| Trees | Hierarchical structures | Traversal, recursion, path reasoning |
+| Graphs | Relationship modeling | Connectivity, traversal, shortest paths |
 | Searching | Finding items efficiently | Linear search, binary search |
 | Sorting | Ordering data | Comparative thinking and tradeoffs |
-| Hashing | Fast lookup | Dictionaries, sets, frequency maps |
-| Stacks and queues | Order-sensitive processing | Balanced expressions, scheduling |
+| Dynamic Programming | Reusing subproblems | Memoization, tabulation, optimization |
+| Greedy | Local choice strategies | Build efficient solutions step by step |
+| Backtracking | Constraint exploration | Trial, pruning, recursion |
 
 ### DSA Workflow
 
 ```mermaid
 flowchart TD
-	A[Read Problem] --> B[Identify Pattern]
+	A[Read Problem in 04_DSA] --> B[Identify Pattern]
 	B --> C[Write Brute Force Idea]
 	C --> D[Optimize If Needed]
 	D --> E[Code in Python]
@@ -480,223 +400,84 @@ flowchart TD
 
 ---
 
-## Folder READMEs Explanation
+## Practice Problems
 
-Each major folder can contain its own README to explain the purpose of that area.
+`05_Practice_Problems` keeps scattered practice in one organized place.
 
-Those folder READMEs should answer questions like:
+It contains:
 
-- What is this folder for?
-- Which concepts belong here?
-- What order should I study the files in?
-- Which examples are beginner-friendly?
-- What should I understand before moving to the next folder?
+- Course Practice Sets
+- Revision Problems
+- Topic-wise Questions
+- Mixed Problems
+- Codeforces Solutions
+- Interview Questions
 
-This keeps the repository scalable. As the content grows, the documentation grows with it instead of becoming an afterthought.
 
----
-
-## How I Organize Code
-
-I keep code organized by topic, clarity, and teaching value.
-
-- Small examples stay small.
-- One file should usually teach one idea.
-- Complex topics get broken into smaller parts.
-- Function names should be descriptive.
-- Variable names should explain intent.
-- Comments are used to clarify reasoning, not to restate obvious syntax.
-
-When code is educational, readability is part of correctness.
 
 ---
 
-## Documentation Standards
 
-I want every folder and file to communicate clearly.
 
-My documentation standards are:
 
-- explain the purpose before the details,
-- show examples after the explanation,
-- keep language simple and direct,
-- use consistent headings and formatting,
-- make navigation predictable,
-- update docs whenever the structure changes.
 
-The README files are not decoration. They are part of the learning system.
 
-> [!TIP]
-> Good documentation reduces confusion, improves revision speed, and makes the repository useful even months later.
 
----
+## Learning Progress
 
-## Commit Strategy
+This repository also acts as a visible record of learning progress.
 
-I use commits as part of the learning rhythm, not just as a version-control habit.
+### Current Progress
 
-| Commit Type | Example | Why it helps |
-|---|---|---|
-| Topic addition | Add new folder for a concept | Shows expansion of knowledge |
-| Example update | Improve code sample | Reflects refinement |
-| Documentation | Add or improve README files | Makes learning visible |
-| Practice | Add exercises or solved problems | Captures repetition |
-| Project work | Add mini project files | Demonstrates application |
-| Cleanup | Rename, restructure, simplify | Improves long-term maintainability |
+- The new repository architecture is now centered on modules, projects, practice, and references.
+- Learning content is moving into `01_Learning` for a cleaner progression.
+- Applied work is split into `02_Mini_Projects`, `03_Showcase_Projects`, `04_DSA`, and `05_Practice_Problems`.
 
-Commit messages should be clear, short, and honest about what changed.
-
----
-
-## Branch Strategy
-
-I prefer a simple branch strategy that supports learning without unnecessary complexity.
-
-- Keep the main branch stable and readable.
-- Use feature branches when a change is large or experimental.
-- Merge only when the topic, example, or project is ready to share.
-- Keep branch names descriptive, such as `topic-strings`, `mini-project-calculator`, or `dsa-recursion`.
-
-For a learning repository, simplicity is a feature. The branch strategy should support momentum, not slow it down.
-
----
-
-## Learning Journal
-
-This repository also acts as a learning journal.
-
-I use it to record:
-
-- what I studied,
-- what I practiced,
-- what confused me,
-- what clicked after repetition,
-- what I want to revisit later.
-
-The journal effect matters because progress becomes easier to review when the learning trail is preserved.
-
-### Repository Evolution
-
-```mermaid
-flowchart LR
-	A[Notes and Simple Examples] --> B[Structured Topic Folders]
-	B --> C[Exercises and Practice]
-	C --> D[Mini Projects and DSA]
-	D --> E[Improved Documentation]
-	E --> F[Stronger Portfolio]
-```
-
----
-
-## Progress Tracking
-
-I track progress by looking at both output and consistency.
-
-| Metric | What it measures | How I use it |
-|---|---|---|
-| Topics completed | Breadth of learning | Shows coverage over time |
-| Examples written | Practice volume | Reinforces concepts |
-| Projects built | Applied understanding | Demonstrates utility |
-| DSA problems solved | Problem-solving growth | Tracks algorithmic maturity |
-| README improvements | Documentation quality | Shows craftsmanship |
-| Commit consistency | Discipline | Makes growth visible |
 
 ### Progress Table
 
-| Category | Current State | Next Step |
+| Area | Current State | Next Step |
 |---|---|---|
-| 01-07 Foundation | Growing foundation | Deepen with more examples |
-| 08-15 Core structure | In active practice | Add exercises and patterns |
-| 16-23 Intermediate depth | Being refined | Apply in mini projects |
-| 24-32 Advanced tooling | Growing steadily | Add real-world workflows |
-| 33-37 Applied libraries | Expanding | Strengthen library-based work |
-| 38-42 Problem solving | Building consistency | Add more problem types |
-| 43 Resources | Organized for revision | Keep improving clarity and structure |
+| 01_Learning | Reorganized into 12 modules | Add more examples and notes |
+| 02_Mini_Projects | Growing with beginner-to-intermediate builds | Improve documentation and outputs |
+| 03_Showcase_Projects | Reserved for stronger portfolio work | Add polished end-to-end projects |
+| 04_DSA | Organized by topic | Expand patterns and difficulty levels |
+| 05_Practice_Problems | Centralized for revision | Add more mixed and platform-based sets |
+| 06_Resources | Curated for quick revision | Keep references current and concise |
 
----
+### Future Goals
 
-## Weekly Goals
+- deepen the advanced modules,
+- add more polished projects,
+- expand DSA coverage,
+- keep practice sets organized,
+- maintain concise and reliable documentation.
 
-Weekly goals keep the repository moving even when progress is incremental.
-
-| Goal | Example | Outcome |
-|---|---|---|
-| Learn one topic deeply | Study one concept and its variations | Better retention |
-| Add one folder or file set | Expand the repo in a controlled way | Better structure |
-| Solve multiple practice items | Exercises and DSA problems | Better fluency |
-| Improve documentation | Refine a folder README | Better navigation |
-| Ship one small project or utility | Apply the concept | Stronger portfolio value |
-
----
-
-## Milestones
-
-Milestones help define meaningful checkpoints.
-
-| Milestone | Meaning |
-|---|---|
-| First structured folder | The repo became topic-oriented |
-| First folder README | The repo became more educational |
-| First mini project | Learning turned practical |
-| First DSA set | Problem-solving became a dedicated habit |
-| Consistent commit streak | Discipline became visible |
-| Advanced topic folders | The journey matured beyond basics |
-
----
-
-## Repository Timeline
-
-| Stage | Focus | Result |
-|---|---|---|
-| Start | Set up the learning workspace | A clear place to grow |
-| Early growth | Add basics and examples | A beginner-friendly foundation |
-| Structure phase | Organize by topic | Easier navigation |
-| Practice phase | Add exercises and projects | Better retention and application |
-| Expansion phase | Add DSA and advanced concepts | Stronger skill depth |
-| Ongoing phase | Maintain and improve | Long-term repository maturity |
-
-### Timeline View
+### Repository Timeline
 
 ```mermaid
 timeline
 	title Programming in Python Timeline
-	Start : Create the learning workspace
-	Early Growth : Add beginner concepts and examples
-	Structure Phase : Organize folders and READMEs
-	Practice Phase : Add exercises and mini projects
-	Expansion Phase : Build DSA and advanced topics
-	Ongoing : Keep improving and documenting
+	Start : Root README and initial structure
+	Learning Workspace : Build the 12 learning modules
+	Projects : Add mini and showcase projects
+	DSA : Organize algorithms by topic
+	Practice : Centralize revision and platform solutions
+	Resources : Keep references and notes curated
+	Ongoing : Improve clarity and maintain momentum
 ```
 
----
+### Current Focus
 
-## Current Focus
-
-My current focus is to keep strengthening the foundation while expanding the repository in a disciplined way.
+My current focus is to keep the repository simple, scalable, and easy to navigate.
 
 That means:
 
-- improving topic coverage,
-- making examples easier to understand,
-- adding more practical exercises,
-- documenting each folder clearly,
-- building small projects that reinforce the core language,
-- keeping the commit history consistent.
-
----
-
-## Future Plans
-
-As the repository grows, I want to add more depth and polish in areas such as:
-
-- advanced Python features,
-- richer mini projects,
-- structured DSA problem sets,
-- improved visual documentation,
-- better learning checklists,
-- possible reusable templates for future folders.
-
-The long-term goal is a repository that remains useful years after it was first created.
+- strengthening module coverage,
+- making each project self-contained,
+- keeping DSA and practice sets easy to review,
+- maintaining consistent documentation,
+- preserving a clean commit history.
 
 ---
 
@@ -704,7 +485,7 @@ The long-term goal is a repository that remains useful years after it was first 
 
 If you are new to programming, this repository is meant to be approachable.
 
-Start with the simplest folder first and move gradually. Read the explanations, run the examples, and do not skip the practice files. The goal is to understand enough to explain the concept in your own words.
+Start with `01_Learning/01_Getting_Started` and move gradually. Read the explanations, run the examples, and do not skip the practice files. The goal is to understand enough to explain the concept in your own words.
 
 When something feels confusing, use the folder README, the examples, and the notes together. That combination is usually enough to make the idea click.
 
@@ -718,12 +499,12 @@ When something feels confusing, use the folder README, the examples, and the not
 The repository is designed to be navigated in layers.
 
 1. Start from this root README.
-2. Open the topic folder that matches what you want to learn.
-3. Read the folder README first.
+2. Open `01_Learning` for the structured learning path.
+3. Read the module README first.
 4. Study the examples in order.
-5. Run or modify the code.
-6. Try the exercises.
-7. Move to a mini project or DSA set when ready.
+5. Move to `02_Mini_Projects` when you want to apply the concept.
+6. Use `04_DSA` and `05_Practice_Problems` for problem-solving practice.
+7. Visit `06_Resources` whenever you need revision material.
 
 If you are exploring the repo casually, use the table of contents as your map.
 
@@ -731,10 +512,10 @@ If you are exploring the repo casually, use the table of contents as your map.
 
 ```mermaid
 flowchart TD
-	A[Open README] --> B[Choose Topic Folder]
-	B --> C[Read Folder README]
+	A[Open README] --> B[Choose 01_Learning, Projects, DSA, Practice, or Resources]
+	B --> C[Read the Relevant Folder README]
 	C --> D[Study Examples]
-	D --> E[Try Exercises]
+	D --> E[Try Exercises or Problems]
 	E --> F[Build or Solve]
 	F --> G[Write Notes]
 	G --> H[Commit Progress]
@@ -742,7 +523,7 @@ flowchart TD
 
 ---
 
-##  Contribution
+## Contribution
 
 If you have ideas to make this repository better, you are more than welcome to contribute!
 
@@ -765,6 +546,8 @@ Let's learn, build, and grow together—one commit at a time. 🚀
 
 ## Resources
 
+`06_Resources` keeps the learning references that support the repository in one place.
+
 These are the kinds of resources that support the learning process well:
 
 - the official Python documentation,
@@ -777,12 +560,13 @@ These are the kinds of resources that support the learning process well:
 
 | Content Type | Status | Notes |
 |---|---|---|
-| Topic folders | Active and expanding | Core structure of the repo |
+| Learning modules | Active and expanding | Core structure of the repo |
 | README files | Actively maintained | Important for navigation |
 | Mini projects | Planned and growing | Apply what I learn |
 | DSA practice | Planned and growing | Build problem-solving habits |
-| Notes and resources | Ongoing | Support revision and reference |
-| Assets | Placeholder stage | Used for banners, diagrams, and visuals |
+| Practice problems | Ongoing | Support revision and interview prep |
+| Resources | Curated and growing | Support revision and reference |
+| Assets | Active | Used for banners, diagrams, and visuals |
 
 ---
 
@@ -827,15 +611,7 @@ This repository keeps me honest about that process.
 
 ---
 
-## Final Reflection
 
-This repository is more than a code dump. It is a record of intention.
-
-Every folder added, every README improved, every example written, and every commit pushed tells the same story: a learner is building skill through structure, patience, and repetition.
-
-If this repository becomes valuable to others, that will be a byproduct of building it properly for myself first.
-
----
 
 ## Connect With Me
 
@@ -854,6 +630,12 @@ If you have ideas for improving the structure, documentation, or learning experi
 **Arnav Raj**
 
 This repository is maintained as a personal learning workspace and public record of Python growth.
+
+This repository is more than a code dump. It is a record of intention.
+
+Every folder added, every README improved, every example written, and every commit pushed tells the same story: a learner is building skill through structure, patience, and repetition.
+
+If this repository becomes valuable to others, that will be a byproduct of building it properly for myself first.
 
 ---
 
