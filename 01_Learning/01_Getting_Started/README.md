@@ -63,17 +63,7 @@ The goal is not to become an expert in Python.
 
 The goal is to become comfortable with:
 
-```text
-Python
-  ↓
-Writing Code
-  ↓
-Saving .py Files
-  ↓
-Running Programs
-  ↓
-Understanding Basic Syntax
-```
+
 
 ```mermaid
 flowchart TD
