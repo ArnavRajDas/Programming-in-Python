@@ -233,8 +233,10 @@ Programming-in-Python/
 ---
 
 
-
+## Python Learning Path
 ### Learning Structure Flow
+
+My Python learning path now follows the repository modules in a simple progression:
 
 ```mermaid
 flowchart TD
@@ -285,30 +287,7 @@ flowchart TD
 	G --> H[Commit Progress]
 ```
 
----
 
-## Python Learning Path
-
-My Python learning path now follows the repository modules in a simple progression:
-
-**Getting Started → Python Fundamentals → Control Flow → Strings → Functions and Modules → Collections → Object-Oriented Programming → Advanced Python → File Handling → External Libraries → Web Development → AI and Modern Python → Mini Projects → DSA → Practice Problems → Professional Python**
-
-1. **Getting Started** - setup, execution, and the first steps into Python.
-2. **Python Fundamentals** - syntax, variables, data types, and operators.
-3. **Control Flow** - conditions, loops, and decision making.
-4. **Strings** - text handling, formatting, and common string patterns.
-5. **Functions and Modules** - reusable logic, scope, imports, and organization.
-6. **Collections** - lists, tuples, sets, and dictionaries.
-7. **Object-Oriented Programming** - classes, objects, and structured design.
-8. **Advanced Python** - deeper language features and more expressive patterns.
-9. **File Handling** - reading, writing, and working with persistent data.
-10. **External Libraries** - using packages and tools beyond the standard library.
-11. **Web Development** - APIs, frameworks, and web-facing Python workflows.
-12. **AI and Modern Python** - modern development habits and AI-assisted workflows.
-13. **Mini Projects** - build small applications that combine multiple concepts.
-14. **DSA** - implement data structures and algorithms in Python.
-15. **Practice Problems** - solve revision sets and platform-based questions.
-16. **Professional Python** - write cleaner, more maintainable, and better-documented code.
 
 ---
 
