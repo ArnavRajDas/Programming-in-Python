@@ -824,18 +824,17 @@ The ultimate purpose of `01_Learning` is not simply:
 
 The real goal is:
 
-```text
-Learn Python
-     ↓
-Think Like a Programmer
-     ↓
-Solve Problems
-     ↓
-Build Applications
-     ↓
-Understand Systems
-     ↓
-Use Python Professionally
+```mermaid
+flowchart TD
+
+
+A["Learn Python"] --> B["Think Like a Programmer"]
+B --> C["Solve Problems"]
+C --> D["Build Applications"]
+D --> E["Understand Systems"]
+E --> F["Use Python Professionally"]
+
+
 ```
 
 Python is the foundation.
@@ -886,6 +885,20 @@ This creates a complete learning ecosystem rather than a collection of disconnec
 
 
 If I can do all six, I truly understand the concept.
+
+---
+### Connection:
+```mermaid
+flowchart TD
+
+A["  Learning"]
+
+A --> B["  Mini Projects"]
+A --> C["  Showcase Projects"]
+A --> D["  DSA"]
+A --> E["  Practice Problems"]
+A --> F["  Resources"]
+```
 
 ---
 
