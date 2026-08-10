@@ -40,6 +40,32 @@ By completing this chapter, you will understand:
 
 ---
 
+
+##  04 - Hello World Preview
+
+### Code
+```python
+print("Hello, World!")
+print("Welcome to Python!")
+print("I am learning Python programming.")
+print()  
+
+print('Hello Arnav!')
+```
+### Output
+
+![Output](../../Assets/04_Hello_world_output01.png)
+
+> 📌 This is a simplified preview. Full code with a detailed explanation is available in `04_Hello_World.py`.
+
+
+
+---
+
+
+
+
+
 ##  Recommended Learning Order
 
 Follow this sequence:
