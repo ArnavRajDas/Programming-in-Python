@@ -58,12 +58,30 @@ print('Hello Arnav!')
 
 > 📌 This is a simplified preview. Full code with a detailed explanation is available in `04_Hello_World.py`.
 
-
-
 ---
 
+## 06 - Python Syntax Preview
 
+Here is a small preview of the Python syntax covered in this lesson.
 
+### Code
+
+```python
+name = "Arnav"
+age = 20
+
+print(name)
+print(age)
+
+print(type(name))
+print(type(age))
+```
+
+### Output
+![Output](../../Assets/06_Syntax_output.png)
+
+> 📌 This is a simplified preview. Full code with a detailed explanation is available in `06_Python_Syntax.py`.
+---
 
 
 ##  Recommended Learning Order
@@ -135,15 +153,15 @@ Try to understand the code yourself before looking at the explanation.
 
 ## ✅ Chapter Checklist
 
-* [ ] Understand what Python is
-* [ ] Install Python
-* [ ] Verify Python installation
-* [ ] Install VS Code
-* [ ] Install the Python extension
-* [ ] Create your first `.py` file
-* [ ] Run a Python program
-* [ ] Understand basic Python syntax
-* [ ] Complete the first practice program
+* [x] Understand what Python is
+* [x] Install Python
+* [x] Verify Python installation
+* [x] Install VS Code
+* [x] Install the Python extension
+* [x] Create your first `.py` file
+* [x] Run a Python program
+* [x] Understand basic Python syntax
+* [x] Complete the first practice program
 
 ---
 
