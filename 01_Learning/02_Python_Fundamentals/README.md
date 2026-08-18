@@ -426,8 +426,8 @@ Use this checklist to verify you understand each topic:
 
 ### Core Concepts
 
-- [ ] I can create a variable and assign a value
-- [ ] I understand Python variable naming conventions
+- [x] I can create a variable and assign a value
+- [x] I understand Python variable naming conventions
 - [ ] I know the difference between `int`, `float`, `bool`, and `str`
 - [ ] I can use `type()` to check a value's type
 - [ ] I understand that `input()` returns a string
