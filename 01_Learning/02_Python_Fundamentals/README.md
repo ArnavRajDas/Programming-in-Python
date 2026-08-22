@@ -430,7 +430,7 @@ Use this checklist to verify you understand each topic:
 - [x] I understand Python variable naming conventions
 - [x] I know the difference between `int`, `float`, `bool`, and `str`
 - [x] I can use `type()` to check a value's type
-- [ ] I understand that `input()` returns a string
+- [x] I understand that `input()` returns a string
 - [x] I can convert between different types using `int()`, `float()`, `str()`, `bool()`
 
 ### Input & Output
