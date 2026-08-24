@@ -435,10 +435,10 @@ Use this checklist to verify you understand each topic:
 
 ### Input & Output
 
-- [ ] I can use `print()` to display output
-- [ ] I understand escape sequences (`\n`, `\t`, `\\`, `\"`)
+- [x] I can use `print()` to display output
+- [x] I understand escape sequences (`\n`, `\t`, `\\`, `\"`)
 - [ ] I can use `input()` to read user input
-- [ ] I can format `print()` output using multiple arguments
+- [x] I can format `print()` output using multiple arguments
 
 ### Expressions & Operators
 
