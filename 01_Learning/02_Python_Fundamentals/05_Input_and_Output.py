@@ -66,6 +66,10 @@ print(name)
 Output means displaying information to the user.
 
 Python uses the print() function to display output.
+
+Basic syntax:
+
+    print(value)
 """
 
 print("Hello, " + name + "!")
@@ -231,7 +235,8 @@ becomes:
 
 For numeric input, map() can be used to convert
 each value into an integer.
-map() is used to apply a function to each item in an iterable (like a list).
+
+map() applies a function to each item in an iterable.
 """
 
 a, b = map(int, input("Enter two numbers: ").split())
@@ -285,7 +290,9 @@ Here we use:
 """
 
 a = float(input("Enter first number: "))
-b = float(input("Enter second number: "))
+b = float(input("Enter second number (non-zero): "))
+
+# If the user enters 0, the program raises ZeroDivisionError.
 
 print("Addition:", a + b)
 print("Subtraction:", a - b)
@@ -311,8 +318,8 @@ Example:
 age = int(input("Enter your age: "))
 print("Age:", age)
 
-JEE_percentile = float(input("Enter the JEE Percentile: "))
-print("JEE Percentile:", JEE_percentile)
+jee_percentile = float(input("Enter the JEE percentile: "))
+print("JEE Percentile:", jee_percentile)
 
 
 # --------------------------------
@@ -384,7 +391,7 @@ A simple calculator can use:
 """
 
 num1 = float(input("Enter first number: "))
-num2 = float(input("Enter second number: "))
+num2 = float(input("Enter second number (non-zero): "))
 
 print("Addition:", num1 + num2)
 print("Subtraction:", num1 - num2)
@@ -425,10 +432,10 @@ age = 19
 
 print(name, age)
 
-print(name, age, sep=" | ") # output: Arnav | 19
+print(name, age, sep=" | ")  # Output: Arnav | 19
 
-# Example: 
-print("2026", "08", "25", sep="-")
+# Example:
+print("2026", "08", "25", sep="-")  # Output: 2026-08-25
 
 
 # --------------------------
@@ -446,10 +453,10 @@ which means print() moves to the next line.
 """
 
 print("Hello", end=" ")
-print("Arnav") # output: Hello Arnav
+print("Arnav")  # Output: Hello Arnav
 
 print("All", end=" - ")
-print("Good")  # output: All - Good
+print("Good")  # Output: All - Good
 
 
 # ---------------------------------------
