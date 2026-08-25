@@ -433,12 +433,16 @@ Use this checklist to verify you understand each topic:
 - [x] I understand that `input()` returns a string
 - [x] I can convert between different types using `int()`, `float()`, `str()`, `bool()`
 
-### Input & Output
+
+## Input & Output
 
 - [x] I can use `print()` to display output
 - [x] I understand escape sequences (`\n`, `\t`, `\\`, `\"`)
-- [ ] I can use `input()` to read user input
+- [x] I can use `input()` to read user input
 - [x] I can format `print()` output using multiple arguments
+- [x] I can use `sep` and `end` with `print()`
+- [x] I can use f-strings to format output
+- [x] I can take multiple values from one line using `split()` and `map()`
 
 ### Expressions & Operators
 
