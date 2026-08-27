@@ -446,10 +446,10 @@ Use this checklist to verify you understand each topic:
 
 ### Expressions & Operators
 
-- [ ] I can write arithmetic expressions and predict results
-- [ ] I understand the difference between `/` and `//`
-- [ ] I understand the `%` (modulus) operator
-- [ ] I understand the `**` (exponentiation) operator
+- [x] I can write arithmetic expressions and predict results
+- [x] I understand the difference between `/` and `//`
+- [x] I understand the `%` (modulus) operator
+- [x] I understand the `**` (exponentiation) operator
 - [ ] I know what comparison operators return (`True` or `False`)
 - [ ] I understand `and`, `or`, and `not` operators
 - [ ] I understand operator precedence and can predict expression results
