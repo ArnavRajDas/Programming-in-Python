@@ -450,10 +450,10 @@ Use this checklist to verify you understand each topic:
 - [x] I understand the difference between `/` and `//`
 - [x] I understand the `%` (modulus) operator
 - [x] I understand the `**` (exponentiation) operator
-- [ ] I know what comparison operators return (`True` or `False`)
+- [x] I know what comparison operators return (`True` or `False`)
 - [ ] I understand `and`, `or`, and `not` operators
 - [ ] I understand operator precedence and can predict expression results
-- [ ] I know when to use assignment operators like `+=`
+- [x] I know when to use assignment operators like `+=`
 
 ### Practice
 
