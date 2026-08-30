@@ -451,7 +451,8 @@ Use this checklist to verify you understand each topic:
 - [x] I understand the `%` (modulus) operator
 - [x] I understand the `**` (exponentiation) operator
 - [x] I know what comparison operators return (`True` or `False`)
-- [ ] I understand `and`, `or`, and `not` operators
+- [x] I understand `and`, `or`, and `not` operators
+- [x] I understand short-circuit evaluation in logical operations
 - [ ] I understand operator precedence and can predict expression results
 - [x] I know when to use assignment operators like `+=`
 
