@@ -453,11 +453,12 @@ Use this checklist to verify you understand each topic:
 - [x] I know what comparison operators return (`True` or `False`)
 - [x] I understand `and`, `or`, and `not` operators
 - [x] I understand short-circuit evaluation in logical operations
-- [ ] I understand operator precedence and can predict expression results
 - [x] I know when to use assignment operators like `+=`
 - [x] I understand identity operators (`is` and `is not`)
 - [x] I understand membership operators (`in` and `not in`)
 - [x] I understand how membership operators work with strings, lists, tuples, sets, dictionaries, and ranges
+- [x] **I understand bitwise operators (`&`, `|`, `^`, `~`, `<<`, and `>>`)**
+- [ ] I understand operator precedence and can predict expression results
 
 ### Practice
 
