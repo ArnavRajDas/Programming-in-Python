@@ -458,7 +458,7 @@ Use this checklist to verify you understand each topic:
 - [x] I understand membership operators (`in` and `not in`)
 - [x] I understand how membership operators work with strings, lists, tuples, sets, dictionaries, and ranges
 - [x] **I understand bitwise operators (`&`, `|`, `^`, `~`, `<<`, and `>>`)**
-- [ ] I understand operator precedence and can predict expression results
+- [x] I understand operator precedence and can predict expression results
 
 ### Practice
 
