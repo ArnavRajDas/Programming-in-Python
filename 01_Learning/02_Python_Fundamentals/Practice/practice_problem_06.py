@@ -11,3 +11,13 @@ Difference
 Product
 Quotient
 '''
+
+# Solution:
+
+num_1 = float(input("Enter the first number: "))
+num_2 = float(input("Enter the second number: "))
+
+print("Sum:", num_1 + num_2)
+print("Difference:", num_1 - num_2)
+print("Product:", num_1 * num_2)
+print("Quotient:", num_1 / num_2)
