@@ -462,11 +462,11 @@ Use this checklist to verify you understand each topic:
 
 ### Practice
 
-- [ ] I can write simple programs using variables
-- [ ] I can write programs that take input and produce output
-- [ ] I can combine multiple concepts into a working program
-- [ ] I can debug simple errors in my code
-- [ ] I can explain fundamental concepts in my own words
+- [x] I can write simple programs using variables
+- [x] I can write programs that take input and produce output
+- [x] I can combine multiple concepts into a working program
+- [x] I can debug simple errors in my code
+- [x] I can explain fundamental concepts in my own words
 
 ---
 
